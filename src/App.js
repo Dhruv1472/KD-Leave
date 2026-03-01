@@ -13,7 +13,7 @@ function App() {
             </div>
             <div  className='sidebar-body'>
               <div className='sidebar-heading'>
-                <img className='profile-logo' src='/image.png'></img>
+                <img className='profile-logo' src='/image.png' alt=' '></img>
                 <div className='profile-text'>
                   <p>NIHANSHU</p>
                   <p className='online-text'>
@@ -59,11 +59,11 @@ function App() {
               <b>KD</b>HOSTEL
             </div>
             <div className='heading'>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-list" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" className="bi bi-list" viewBox="0 0 16 16">
+                <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
               </svg>
               <div className='top-right-logo'>
-                <img className='profile-logo2' src='/2image.png'></img>
+                <img className='profile-logo2' src='/2image.png' alt=' '></img>
                 <p>User image</p>
               </div>
             </div>

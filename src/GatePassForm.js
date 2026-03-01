@@ -57,7 +57,7 @@ function GatePassList() {
           </thead>
           <tbody>
             <tr>
-              <td>KD300663      <img className='profile-logo2' src='/2image.png'></img></td>
+              <td>KD300663      <img className='profile-logo2' src='/2image.png' alt=' '></img></td>
               <td><span className='leave-tag'>Leave</span></td>
               <td>go to home</td>
               <td>28-Feb-2026</td>
