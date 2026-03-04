@@ -264,9 +264,16 @@
   position: relative;
   cursor: pointer;
   white-space: nowrap;
+  position: relative;
 }
 
-.table-section table th::after {
+.table-header-icon {
+  position: absolute;
+  right: 0;
+  bottom: 8px;
+}
+
+/* .table-section table th::after {
   content: "";
   display: inline-block;
   width: 0;
@@ -277,8 +284,8 @@
   border-right: 4px solid transparent;
   border-top: 4px solid #333;
   opacity: 0.3;
-}
-
+} */
+/* 
 .table-section table th::before {
   content: "";
   display: inline-block;
@@ -291,7 +298,7 @@
   border-right: 4px solid transparent;
   border-bottom: 4px solid #333;
   opacity: 0.3;
-}
+} */
 
 .table-section table td {
   padding: 10px;
@@ -446,4 +453,12 @@
   .body-header-right {
     background-color: #d2d6de;
   }
+}
+
+/* Hamburger menu icon link — remove default anchor styling */
+.menu-icon-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
 }
