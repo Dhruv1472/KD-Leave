@@ -85,7 +85,7 @@ function GatePassList() {
         </div>
       </div>
       <div className='footer'>
-        <p><b>Copyright © 2026</b> <p className='blue-clr'><b>Company</b></p>. All rights reserved.</p>
+        <p><b>Copyright © 2026</b> <span className='blue-clr'><b>Company</b></span>. All rights reserved.</p>
         <p className='anything'>Anything you want</p>
       </div>
     </>
@@ -149,10 +149,6 @@ function GatePassForm() {
       // Reset form or navigate back
       navigate('/');
     }
-  };
-
-  const handleBack = () => {
-    navigate('/');
   };
 
   return (
@@ -273,7 +269,7 @@ function GatePassForm() {
         </form>
       </div>
       <div className='footer'>
-        <p><b>Copyright © 2026</b> <p className='blue-clr'><b>Company</b></p>. All rights reserved.</p>
+        <p><b>Copyright © 2026</b> <span className='blue-clr'><b>Company</b></span>. All rights reserved.</p>
         <p className='anything'>Anything you want</p>
       </div>
     </div>
